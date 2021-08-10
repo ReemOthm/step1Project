@@ -1,32 +1,35 @@
-
-#nav{
+nav{
     height: 50px;
-    background-color: darkcyan;
+    text-align: center;
 }
 
-li{
+nav li{
     list-style: none;
     float:left;
     font-size: large; 
-    width:10%; 
+    width:15%; 
     padding-top: 10px;
     text-align: center;
     height: 50px;
-}
-li:hover{
     
+}
+nav ul{
+    margin-left: 450px;
+}
+
+nav li:hover{  
     color:burlywood ;
     background-color: rgb(230, 245, 234);
 }
-li a:hover{
+nav li a:hover{
     text-decoration: none;
     color:burlywood ;
     background-color: rgb(230, 245, 234);
 }
-a:link{
+nav a:link{
     color:black;
 }
-a:visited{
+nav a:visited{
     color:black
 }
 #m1{
@@ -35,10 +38,64 @@ a:visited{
     height:50px;
     float:right;
     
-    
-    
 }
 #m1:hover{
     
     background-color: rgb(230, 245, 234);
+} 
+#h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
+/* Sections part */
+
+section{
+    height: 2000px;
+    width: 80%;
+    background-color: rgb(218, 213, 213);
+    float:left;
+}
+aside{
+    height: 600px;
+    width:20%;
+    background-color: rgb(207, 236, 207);
+    float:left;
+}
+
+.div1{
+    height: 600px;
+    width: 100%;
+    float:left
+}
+.p{
+    padding: 40px 20px;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius:25px;
+}
+.divpar{
+    margin-left: 80px;
+}
+.u2{
+    list-style: none;
+}
+aside li{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+aside a{
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#title{
+    float:left;
+}
+/* background-color: #d4a5a5; 
+cursive; 
+Arial, Helvetica, sans-serif 
+*/
