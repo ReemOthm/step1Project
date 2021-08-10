@@ -1,6 +1,7 @@
 nav{
-    height: 50px;
+    height: 60px;
     text-align: center;
+    background-color: rgb(229, 221, 147);
 }
 
 nav li{
@@ -8,13 +9,14 @@ nav li{
     float:left;
     font-size: large; 
     width:15%; 
-    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
-    height: 50px;
+    height: 60px;
     
 }
 nav ul{
-    margin-left: 450px;
+    margin-left: 30%;
+    
 }
 
 nav li:hover{  
@@ -35,7 +37,7 @@ nav a:visited{
 #m1{
     padding-right: 50px;
     padding-left: 40px;
-    height:50px;
+    height:60px;
     float:right;
     
 }
@@ -73,7 +75,7 @@ aside{
     padding: 40px 20px;
     width: 700px;
     height: 400px;
-    background-color: white;
+    background-color: lavender;
     text-align: center;
     margin-bottom: 50px;
     border-radius:25px;
@@ -98,4 +100,16 @@ aside a{
 /* background-color: #d4a5a5; 
 cursive; 
 Arial, Helvetica, sans-serif 
+rgb(208, 224, 230);
+rgb(211, 228, 233);
 */
+#header{
+    background-color: rgb(208, 224, 230);
+    height: 200px;
+}
+/* .header{
+    padding-top: 60px;
+    border-radius: 40px;
+    background-color: lightblue;
+    
+} */
