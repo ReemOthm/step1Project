@@ -3,19 +3,18 @@ nav{
     text-align: center;
     background-color: rgb(229, 221, 147);
 }
+nav ul{
+    list-style: none;
+    margin-left: 30%;
+}
 
 nav li{
-    list-style: none;
     float:left;
     font-size: large; 
     width:15%; 
     padding-top: 15px;
     text-align: center;
     height: 60px;
-    
-}
-nav ul{
-    margin-left: 30%;
     
 }
 
@@ -48,16 +47,30 @@ nav a:visited{
 #h1{
     text-align: center;
     padding-top: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; /* *** */
     
 }
 /* Sections part */
 
-section{
+.allsection{
     height: 2000px;
     width: 80%;
     background-color: rgb(218, 213, 213);
     float:left;
+}
+.section{
+    margin-left: 80px;
+    border:1px solid #ddd; /* *** */
+    min-height: 500px; /* *** */
+}
+.p{
+    padding: 40px 20px;
+    width: 700px;
+    height: 400px;
+    background-color: lavender;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius:25px;
 }
 aside{
     height: 600px;
@@ -71,18 +84,8 @@ aside{
     width: 100%;
     float:left
 }
-.p{
-    padding: 40px 20px;
-    width: 700px;
-    height: 400px;
-    background-color: lavender;
-    text-align: center;
-    margin-bottom: 50px;
-    border-radius:25px;
-}
-.divpar{
-    margin-left: 80px;
-}
+
+
 .u2{
     list-style: none;
 }
@@ -105,7 +108,9 @@ rgb(211, 228, 233);
 */
 #header{
     background-color: rgb(208, 224, 230);
-    height: 200px;
+    height: 300px;
+    padding: 80px 40px 40px 200px;
+    font-size: 18px;
 }
 /* .header{
     padding-top: 60px;
@@ -113,3 +118,12 @@ rgb(211, 228, 233);
     background-color: lightblue;
     
 } */
+.headp{
+    height:200px;
+    width: 600px;
+    padding: 10px;
+    font-family:monospace;
+}
+span{
+    font-size: 40px;
+}
